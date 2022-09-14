@@ -1,0 +1,19 @@
+.primary-btn {
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 10px 0;
+    border: none;
+    margin-right: 25px;
+}
+.text-fields {
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #042b39;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+}
+.text-fields::placeholder {
+    color: #51676d;
+}

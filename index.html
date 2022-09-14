@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Age calculator</title>
+        <link href="./style/index.css" rel="stylesheet">
+        <script src="./script/script.js"></script>
+    </head>
+    <body>
+        <div class="main-container">
+            <h2>Age Calculator</h2>
+            <div class="form-container">
+                <div class="row">
+                    <div class="cell-1">
+                        <input class="text-fields" type="text" id="day" placeholder="Day">
+                    </div>
+                    <div class="cell-1">
+                        <input class="text-fields" type="text" id="month" placeholder="Month">
+                    </div>
+                    <div class="cell-1">
+                        <input class="text-fields" type="text" id="year" placeholder="Year">
+                    </div>
+                    <div class="cell-1">
+                       <button class="primary-btn" id="calculate" onclick="ageCalculator()">Calculate</button>
+                    </div>
+                </div>
+            </div>
+            <div class="result-field">
+                <div class="row">
+                    <div class="cell-1 bg-box">
+                        <p id="years-result">NaN</p>
+                        <label>Years</label>
+                    </div>
+                    <div class="cell-1 bg-box">
+                        <p id="months-result">NaN</p>
+                        <label>Months</label>
+                    </div>
+                    <div class="cell-1 bg-box">
+                        <p id="days-result">NaN</p>
+                        <label>Days</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
